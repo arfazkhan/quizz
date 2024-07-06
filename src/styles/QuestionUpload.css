@@ -1,0 +1,158 @@
+    /* Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+    /* Body */
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #fffbc8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding-top: 120px;
+    }
+
+    /* Form Container */
+    .question-upload-form {
+        max-width: 1300px;
+        width: 100%;
+        background-color: #fbffd4;
+        border-radius: 16px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        box-sizing: border-box;
+    }
+
+    /* Headings */
+    .question-upload-form h2 {
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom: 24px;
+        color: #333333;
+    }
+
+    /* Points Container */
+    .points-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 32px;
+    }
+
+    /* Error Message */
+    .error-message {
+        color: #f44336;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    /* Input Container */
+    .input-container {
+        margin-bottom: 24px;
+    }
+
+    /* Textareas and Inputs */
+    textarea, input {
+        width: 100%;
+        padding: 16px;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        font-size: 16px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+        transition: border-color 0.3s ease;
+    }
+
+    textarea:focus, input:focus {
+        outline: none;
+        border-color: #4caf50;
+    }
+
+    /* Sentences Container */
+    .sentences-container {
+        margin-bottom: 40px;
+    }
+
+    /* Sentence Rows */
+    .sentence-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    /* Sentence Textarea */
+    .sentence-textarea {
+        flex: 1;
+        margin-right: 16px;
+        padding: 10px;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        font-size: 14px;
+        resize: vertical;
+        transition: border-color 0.3s ease;
+    }
+
+    .sentence-textarea:focus {
+        border-color: #4caf50;
+    }
+
+    /* Color Options */
+    .color-options {
+        display: flex;
+        align-items: center;
+    }
+
+    .color-option {
+        width: 16px;
+        height: 16px;
+            margin: 0   px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+
+    .color-option:hover {
+        transform: scale(1.1);
+    }
+
+    /* Add Sentence Button */
+    button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 14px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+        border-radius: 12px;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    /* Add Sentence Button */
+.add-sentence-button {
+    display: flex;
+    width: 650px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px dashed #4caf50;
+    color: #4caf50;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.add-sentence-button:hover {
+    background-color: rgba(76, 175, 80, 0.1);
+}
